@@ -1,0 +1,34 @@
+Set GPU with device ID = 0
+Vector Addition: C = 1/A + 1/B
+Enter the size of the vectors: 163840007
+Enter the number of threads per block: 128
+Enter the number of blocks per grid: 128
+The number of blocks is 128
+Input time for GPU: 229.144287 (ms) 
+Processing time for GPU: 37.500992 (ms) 
+GPU Gflops: 13.106854
+Output time for GPU: 290.805115 (ms) 
+Total time for GPU: 557.450378 (ms) 
+Processing time for CPU: 2305.420166 (ms) 
+CPU Gflops: 0.213202
+Speed up of GPU = 4.135651
+Check result:
+norm(h_C - h_D)=0.000000000000000e+00
+
+Set GPU with device ID = 0
+Vector Addition: C = 1/A + 1/B
+Enter the size of the vectors: 163840007
+Enter the number of threads per block: 128
+Enter the number of blocks per grid: 128
+The number of blocks is 128
+Input time for GPU: 239.994812 (ms) 
+Processing time for GPU: 37.522530 (ms) 
+GPU Gflops: 13.099331
+Output time for GPU: 317.983887 (ms) 
+Total time for GPU: 595.501221 (ms) 
+Processing time for CPU: 2871.546143 (ms) 
+CPU Gflops: 0.171169
+Speed up of GPU = 4.822066
+Check result:
+norm(h_C - h_D)=0.000000000000000e+00
+

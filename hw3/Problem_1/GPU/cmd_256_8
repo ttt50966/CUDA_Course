@@ -1,0 +1,21 @@
+Universe=vanilla
+Executable=/opt/bin/runjob
+Machine_count=1
+
+Output=condor.out
+Error=condor.err
+Log=condor.log
+
+Requirements=(MTYPE=="TEST")
+
+Request_cpus=1
+
+Initialdir=/work/d06222003/hw3/GPU
+
+Arguments=./laplace 256_8_in 256_8_out
+
+Notification=Always
+Notify_user=d06222003@g.ntu.edu.tw
+
+Queue
+

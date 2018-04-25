@@ -1,0 +1,113 @@
+The Usage of twcp10 cluster:
+
+1. System configuration:
+   - Hardware:  Nvidia GeForce GTX 970
+
+   - OS:        Debian GNU/Linux version 7.11           
+
+   - Software:
+     - CUDA 9.1:        /usr/local/nvidia
+     - Intel Compilers: /opt/intel
+
+2. All jobs should be submitted and run through the condor system.
+
+3. In the condor system, the available queues and list of machines can be
+   queried by the "nodelist" command. Here is an example output:
+
+  Name          MTYPE       Config     State     NP     JobID  Activity  LoadAv
+-------------------------------------------------------------------------------
+vm1.1@twqcd7    TEST        2GPU-24G   Claimed    1    486601    Busy     1.000
+vm1.2@twqcd7    TEST        2GPU-24G   Claimed    1    486602    Busy     1.000
+  vm1@twqcd58   TEST        2GPU-24G   Unclaimed  2       n/a    Idle     0.030
+  vm1@twqcd87   TEST        2GPU-24G   Unclaimed  2       n/a    Idle     0.010
+
+Number of TEST:       total=06, busy=02, free=04
+
+   where:
+
+   - Name:     machine hostname, with job running slot ID in that machine.
+   - MTYPE:    the queue name.
+   - Config:   the hardware configuration summary (number of GPUs and the
+               size of host memory) of that machine.
+   - State:    the current state of that machine: "Claimed" means occupied
+               by a job, and "Unclaimed" means unoccupied.
+   - NP:       number of GPUs in that machine.
+   - JobID:    the ID of the job running in that machine.
+   - Activity: the machine activity, Busy or Idle.
+   - LoadAv:   the machine load average.
+
+   Finally, the "Number of <queue_name>" counts the total number of GPUs
+   belong to the queue.
+
+
+6. To run jobs in the cluster, one should follow the guidelines:
+
+   - Create a working directory under /work/<account>/ for your job.
+
+   - Put all the necessary data files and input files in the working
+     directory.
+
+   - Prepare a job description file to tell condor the requirements of
+     your job, such as which queue to run, how many GPUs are needed, ...
+     etc. The example job description file named "cmd" are available in
+     the ~/example directory. It is self-described. Please use it as
+     an template and modify it to fulfill your job requirements.
+
+   - To submit your job, please run (suppose that your job description
+     filename is "cmd"):
+
+     condor_submit cmd
+
+   - After that, you can use the command "jview" to check the job status.
+     Here is an example output:
+
+ JobID  User     RunTime NGPU  ST    Host     Queue   Config    Wdir
+---------------------------------------------------------------------------------------------
+   100  twchiu     48.4h    2   R    twqcd7    TEST   2GPU-32G  /work/twchiu/jobs/testrun
+
+     where:
+
+     - JobID:   The ID number of this job.
+     - User:    The owner of this job.
+     - RunTime: The running time of this job.
+     - NGPU:    The number of GPUs used in this job.
+     - ST:      The job state. R: Running, H: Holding (waiting for available
+                computing resources), I: Ready to start.
+     - Host:    The node ID running this job, where 802 means the node
+                "twqcd802".
+     - Queue:   The queue name which runs this job.
+     - Config:  The short configuration description of the computing node.
+     - Wdir:    The working directory of this job.
+
+    - If you want to kill a job, please use the command:
+
+     condor_rm <JobID>
+
+7. About GPU_ID
+
+   Each computing node has two GPU cards. The job can either use one GPU
+   (while another GPU can run another single GPU job), or use two GPUs together.
+   In order to prevent conflicts to the existing jobs, each job should query
+   the free GPU ID and use it before running.
+
+   In this cluster, the job start-up script "/opt/bin/runjob" provides the
+   available GPU IDs for each job. 
+
+   Suppose that your code or script is named "jexec". 
+
+   Arguments = ./jexec inp.txt out.txt
+   (this is equivalent to:  ./jexec < inp.txt >> out.txt):
+      - jexec:   the code or script to run your computation.
+      - inp.txt: the input file for the STDIN to your code "jexec".
+      - out.txt: the output file for the STDOUT of your code "jexec".
+
+   In your input file, there exists a parameter with the keyword "GPU_ID". 
+   When the job starts, this keyword of the input file will be replaced 
+   by the actual GPU ID and passed into your code "jexec".
+
+8. To perform a test run in ~/example
+
+   - Edit the parameter "Initialdir" in the "cmd" file.
+
+   - Use the command "condor_submit cmd" to submit the job.
+

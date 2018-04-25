@@ -1,0 +1,38 @@
+000 (488055.000.000) 03/13 18:43:46 Job submitted from host: <192.168.2.254:36667>
+...
+013 (488055.000.000) 03/13 18:43:55 Job was released.
+	via condor_release (by user condor)
+...
+001 (488055.000.000) 03/13 18:44:05 Job executing on host: <192.168.2.59:58409>
+...
+Job start: host=twqcd58, JOB_ID=488055, GPU_ID=0, wdir=/work/d06222003/example
+005 (488055.000.000) 03/13 18:44:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (488058.000.000) 03/13 18:57:21 Job submitted from host: <192.168.2.254:36667>
+...
+013 (488058.000.000) 03/13 18:57:25 Job was released.
+	via condor_release (by user condor)
+...
+001 (488058.000.000) 03/13 18:57:42 Job executing on host: <192.168.2.8:53405>
+...
+Job start: host=twqcd7, JOB_ID=488058, GPU_ID=0, wdir=/work/d06222003/example
+005 (488058.000.000) 03/13 18:57:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...

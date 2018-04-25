@@ -1,0 +1,570 @@
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 64
+Input time for GPU: 30.703680 (ms) 
+Processing time for GPU: 0.401536 (ms) 
+GPU Gflops: 204.016615
+Output time for GPU: 6.793600 (ms) 
+Total time for GPU: 37.898819 (ms) 
+Processing time for CPU: 64.174461 (ms) 
+CPU Gflops: 1.276520
+Speed up of GPU = 1.693310
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.999773502349854e-01
+The difference =2.264976501464844e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 32
+Input time for GPU: 30.627840 (ms) 
+Processing time for GPU: 0.370080 (ms) 
+GPU Gflops: 221.357583
+Output time for GPU: 6.790976 (ms) 
+Total time for GPU: 37.788898 (ms) 
+Processing time for CPU: 63.899902 (ms) 
+CPU Gflops: 1.282005
+Speed up of GPU = 1.690970
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.999155998229980e-01
+The difference =8.428096771240234e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 16
+Input time for GPU: 30.542015 (ms) 
+Processing time for GPU: 0.484128 (ms) 
+GPU Gflops: 169.211476
+Output time for GPU: 6.789536 (ms) 
+Total time for GPU: 37.815678 (ms) 
+Processing time for CPU: 64.169662 (ms) 
+CPU Gflops: 1.276616
+Speed up of GPU = 1.696906
+Check result:
+h_CPU_Max =9.999997615814209e-01
+h_GPU_Max =9.999874830245972e-01
+The difference =1.227855682373047e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 10
+Input time for GPU: 30.631071 (ms) 
+Processing time for GPU: 0.398304 (ms) 
+GPU Gflops: 205.672090
+Output time for GPU: 6.785984 (ms) 
+Total time for GPU: 37.815361 (ms) 
+Processing time for CPU: 63.905823 (ms) 
+CPU Gflops: 1.281887
+Speed up of GPU = 1.689943
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.999693632125854e-01
+The difference =3.063678741455078e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 8
+Input time for GPU: 30.476671 (ms) 
+Processing time for GPU: 0.483616 (ms) 
+GPU Gflops: 169.390620
+Output time for GPU: 6.786048 (ms) 
+Total time for GPU: 37.746334 (ms) 
+Processing time for CPU: 63.996033 (ms) 
+CPU Gflops: 1.280080
+Speed up of GPU = 1.695424
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.995814561843872e-01
+The difference =4.184246063232422e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 1024
+Enter the number of blocks per grid: 4
+Input time for GPU: 30.512512 (ms) 
+Processing time for GPU: 0.929824 (ms) 
+GPU Gflops: 88.102709
+Output time for GPU: 6.793696 (ms) 
+Total time for GPU: 38.236034 (ms) 
+Processing time for CPU: 63.987392 (ms) 
+CPU Gflops: 1.280252
+Speed up of GPU = 1.673484
+Check result:
+h_CPU_Max =9.999997615814209e-01
+h_GPU_Max =9.986919164657593e-01
+The difference =1.307845115661621e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 64
+Input time for GPU: 30.951040 (ms) 
+Processing time for GPU: 0.362688 (ms) 
+GPU Gflops: 225.869099
+Output time for GPU: 6.795232 (ms) 
+Total time for GPU: 38.108959 (ms) 
+Processing time for CPU: 63.896225 (ms) 
+CPU Gflops: 1.282079
+Speed up of GPU = 1.676672
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.998509883880615e-01
+The difference =1.490116119384766e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 32
+Input time for GPU: 30.490208 (ms) 
+Processing time for GPU: 0.366144 (ms) 
+GPU Gflops: 223.737143
+Output time for GPU: 6.788704 (ms) 
+Total time for GPU: 37.645058 (ms) 
+Processing time for CPU: 63.974369 (ms) 
+CPU Gflops: 1.280513
+Speed up of GPU = 1.699409
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.999425411224365e-01
+The difference =5.745887756347656e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 16
+Input time for GPU: 30.574400 (ms) 
+Processing time for GPU: 0.473184 (ms) 
+GPU Gflops: 173.125074
+Output time for GPU: 6.787712 (ms) 
+Total time for GPU: 37.835297 (ms) 
+Processing time for CPU: 63.970913 (ms) 
+CPU Gflops: 1.280582
+Speed up of GPU = 1.690773
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.995017051696777e-01
+The difference =4.982948303222656e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 10
+Input time for GPU: 30.562241 (ms) 
+Processing time for GPU: 0.443840 (ms) 
+GPU Gflops: 184.571047
+Output time for GPU: 6.787264 (ms) 
+Total time for GPU: 37.793343 (ms) 
+Processing time for CPU: 64.090271 (ms) 
+CPU Gflops: 1.278197
+Speed up of GPU = 1.695809
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.998396635055542e-01
+The difference =1.603364944458008e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 8
+Input time for GPU: 30.528992 (ms) 
+Processing time for GPU: 0.549952 (ms) 
+GPU Gflops: 148.958486
+Output time for GPU: 6.793248 (ms) 
+Total time for GPU: 37.872192 (ms) 
+Processing time for CPU: 64.189789 (ms) 
+CPU Gflops: 1.276216
+Speed up of GPU = 1.694906
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.985975027084351e-01
+The difference =1.402378082275391e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 512
+Enter the number of blocks per grid: 4
+Input time for GPU: 30.545889 (ms) 
+Processing time for GPU: 1.064512 (ms) 
+GPU Gflops: 76.955461
+Output time for GPU: 6.793696 (ms) 
+Total time for GPU: 38.404099 (ms) 
+Processing time for CPU: 63.884575 (ms) 
+CPU Gflops: 1.282313
+Speed up of GPU = 1.663483
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.994012117385864e-01
+The difference =5.986690521240234e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 64
+Input time for GPU: 30.532543 (ms) 
+Processing time for GPU: 0.309280 (ms) 
+GPU Gflops: 264.873289
+Output time for GPU: 6.793152 (ms) 
+Total time for GPU: 37.634975 (ms) 
+Processing time for CPU: 63.939648 (ms) 
+CPU Gflops: 1.281208
+Speed up of GPU = 1.698942
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.999740123748779e-01
+The difference =2.598762512207031e-05
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 32
+Input time for GPU: 30.537697 (ms) 
+Processing time for GPU: 0.366304 (ms) 
+GPU Gflops: 223.639411
+Output time for GPU: 6.793760 (ms) 
+Total time for GPU: 37.697762 (ms) 
+Processing time for CPU: 64.042656 (ms) 
+CPU Gflops: 1.279148
+Speed up of GPU = 1.698845
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.998289346694946e-01
+The difference =1.710653305053711e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 16
+Input time for GPU: 30.523808 (ms) 
+Processing time for GPU: 0.547840 (ms) 
+GPU Gflops: 149.532734
+Output time for GPU: 4.688992 (ms) 
+Total time for GPU: 35.760639 (ms) 
+Processing time for CPU: 64.033661 (ms) 
+CPU Gflops: 1.279327
+Speed up of GPU = 1.790618
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.991351366043091e-01
+The difference =8.648633956909180e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 10
+Input time for GPU: 30.594303 (ms) 
+Processing time for GPU: 0.819136 (ms) 
+GPU Gflops: 100.007826
+Output time for GPU: 6.785536 (ms) 
+Total time for GPU: 38.198975 (ms) 
+Processing time for CPU: 63.974850 (ms) 
+CPU Gflops: 1.280503
+Speed up of GPU = 1.674779
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.996501207351685e-01
+The difference =3.498792648315430e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 8
+Input time for GPU: 30.507711 (ms) 
+Processing time for GPU: 0.967872 (ms) 
+GPU Gflops: 84.639303
+Output time for GPU: 6.782944 (ms) 
+Total time for GPU: 38.258530 (ms) 
+Processing time for CPU: 63.887775 (ms) 
+CPU Gflops: 1.282249
+Speed up of GPU = 1.669896
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.988403320312500e-01
+The difference =1.159548759460449e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 4
+Input time for GPU: 30.577375 (ms) 
+Processing time for GPU: 1.884352 (ms) 
+GPU Gflops: 43.473838
+Output time for GPU: 6.797568 (ms) 
+Total time for GPU: 39.259296 (ms) 
+Processing time for CPU: 64.147842 (ms) 
+CPU Gflops: 1.277050
+Speed up of GPU = 1.633953
+Check result:
+h_CPU_Max =9.999997615814209e-01
+h_GPU_Max =9.997881650924683e-01
+The difference =2.115964889526367e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 64
+Input time for GPU: 30.580641 (ms) 
+Processing time for GPU: 0.327968 (ms) 
+GPU Gflops: 249.780505
+Output time for GPU: 6.778592 (ms) 
+Total time for GPU: 37.687202 (ms) 
+Processing time for CPU: 63.902687 (ms) 
+CPU Gflops: 1.281949
+Speed up of GPU = 1.695607
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.996272325515747e-01
+The difference =3.727674484252930e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 32
+Input time for GPU: 30.477665 (ms) 
+Processing time for GPU: 0.516928 (ms) 
+GPU Gflops: 158.474701
+Output time for GPU: 6.787488 (ms) 
+Total time for GPU: 37.782082 (ms) 
+Processing time for CPU: 63.916416 (ms) 
+CPU Gflops: 1.281674
+Speed up of GPU = 1.691712
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.988210201263428e-01
+The difference =1.178860664367676e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 16
+Input time for GPU: 30.511936 (ms) 
+Processing time for GPU: 0.966336 (ms) 
+GPU Gflops: 84.773838
+Output time for GPU: 6.844544 (ms) 
+Total time for GPU: 38.322815 (ms) 
+Processing time for CPU: 64.020226 (ms) 
+CPU Gflops: 1.279596
+Speed up of GPU = 1.670551
+Check result:
+h_CPU_Max =9.999997615814209e-01
+h_GPU_Max =9.986919164657593e-01
+The difference =1.307845115661621e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 10
+Input time for GPU: 30.639681 (ms) 
+Processing time for GPU: 1.503072 (ms) 
+GPU Gflops: 54.501722
+Output time for GPU: 6.790720 (ms) 
+Total time for GPU: 38.933472 (ms) 
+Processing time for CPU: 63.953472 (ms) 
+CPU Gflops: 1.280931
+Speed up of GPU = 1.642635
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.981093406677246e-01
+The difference =1.890659332275391e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 8
+Input time for GPU: 30.487713 (ms) 
+Processing time for GPU: 1.873024 (ms) 
+GPU Gflops: 43.736767
+Output time for GPU: 6.786528 (ms) 
+Total time for GPU: 39.147266 (ms) 
+Processing time for CPU: 63.967968 (ms) 
+CPU Gflops: 1.280641
+Speed up of GPU = 1.634034
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.998143911361694e-01
+The difference =1.856088638305664e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 128
+Enter the number of blocks per grid: 4
+Input time for GPU: 30.521919 (ms) 
+Processing time for GPU: 3.710720 (ms) 
+GPU Gflops: 22.076581
+Output time for GPU: 6.780416 (ms) 
+Total time for GPU: 41.013054 (ms) 
+Processing time for CPU: 63.962593 (ms) 
+CPU Gflops: 1.280749
+Speed up of GPU = 1.559567
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.938771724700928e-01
+The difference =6.122827529907227e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 64
+Input time for GPU: 30.510817 (ms) 
+Processing time for GPU: 0.525216 (ms) 
+GPU Gflops: 155.973953
+Output time for GPU: 6.785344 (ms) 
+Total time for GPU: 37.821377 (ms) 
+Processing time for CPU: 64.095230 (ms) 
+CPU Gflops: 1.278098
+Speed up of GPU = 1.694683
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.998396635055542e-01
+The difference =1.603364944458008e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 32
+Input time for GPU: 30.609344 (ms) 
+Processing time for GPU: 0.953952 (ms) 
+GPU Gflops: 85.874354
+Output time for GPU: 6.788160 (ms) 
+Total time for GPU: 38.351456 (ms) 
+Processing time for CPU: 64.285248 (ms) 
+CPU Gflops: 1.274321
+Speed up of GPU = 1.676214
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.985975027084351e-01
+The difference =1.402378082275391e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 16
+Input time for GPU: 30.567808 (ms) 
+Processing time for GPU: 1.871360 (ms) 
+GPU Gflops: 43.775658
+Output time for GPU: 6.789376 (ms) 
+Total time for GPU: 39.228542 (ms) 
+Processing time for CPU: 63.892513 (ms) 
+CPU Gflops: 1.282154
+Speed up of GPU = 1.628725
+Check result:
+h_CPU_Max =9.999998807907104e-01
+h_GPU_Max =9.994012117385864e-01
+The difference =5.986690521240234e-04
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 10
+Input time for GPU: 30.518784 (ms) 
+Processing time for GPU: 2.975808 (ms) 
+GPU Gflops: 27.528663
+Output time for GPU: 6.790336 (ms) 
+Total time for GPU: 40.284927 (ms) 
+Processing time for CPU: 64.142174 (ms) 
+CPU Gflops: 1.277163
+Speed up of GPU = 1.592213
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.932911396026611e-01
+The difference =6.708860397338867e-03
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 8
+Input time for GPU: 30.608416 (ms) 
+Processing time for GPU: 3.710112 (ms) 
+GPU Gflops: 22.080199
+Output time for GPU: 6.792576 (ms) 
+Total time for GPU: 41.111103 (ms) 
+Processing time for CPU: 63.928448 (ms) 
+CPU Gflops: 1.281433
+Speed up of GPU = 1.555017
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.894063472747803e-01
+The difference =1.059365272521973e-02
+-------------------------------------
+-------------------------------------
+Find maximun value of vector: 
+Set GPU with device ID = 0
+Enter the size of the vector: 40960007
+Enter the number (2^m) of threads per block: 64
+Enter the number of blocks per grid: 4
+Input time for GPU: 30.534529 (ms) 
+Processing time for GPU: 7.398592 (ms) 
+GPU Gflops: 11.072379
+Output time for GPU: 4.681664 (ms) 
+Total time for GPU: 42.614784 (ms) 
+Processing time for CPU: 64.212929 (ms) 
+CPU Gflops: 1.275756
+Speed up of GPU = 1.506823
+Check result:
+h_CPU_Max =1.000000000000000e+00
+h_GPU_Max =9.828491210937500e-01
+The difference =1.715087890625000e-02
+-------------------------------------

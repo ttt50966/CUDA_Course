@@ -1,0 +1,133 @@
+000 (492282.000.000) 04/12 11:29:08 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492282.000.000) 04/12 11:29:13 Job was released.
+	via condor_release (by user condor)
+...
+001 (492282.000.000) 04/12 11:29:29 Job executing on host: <192.168.2.8:52172>
+...
+Job start: host=twqcd7, JOB_ID=492282, GPU_ID=0, wdir=/work/cuda_lecture/vecAdd_NGPU
+005 (492282.000.000) 04/12 11:29:32 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492284.000.000) 04/12 11:33:16 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492284.000.000) 04/12 11:33:21 Job was released.
+	via condor_release (by user condor)
+...
+001 (492284.000.000) 04/12 11:33:37 Job executing on host: <192.168.2.59:53061>
+...
+Job start: host=twqcd58, JOB_ID=492284, GPU_ID=0 1, wdir=/work/cuda_lecture/vecAdd_NGPU
+005 (492284.000.000) 04/12 11:33:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492285.000.000) 04/12 11:36:28 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492285.000.000) 04/12 11:36:40 Job was released.
+	via condor_release (by user condor)
+...
+001 (492285.000.000) 04/12 11:36:49 Job executing on host: <192.168.2.8:52172>
+...
+Job start: host=twqcd7, JOB_ID=492285, GPU_ID=0 1, wdir=/work/cuda_lecture/vecAdd_NGPU
+005 (492285.000.000) 04/12 11:36:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492738.000.000) 04/17 09:35:55 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492738.000.000) 04/17 09:36:02 Job was released.
+	via condor_release (by user condor)
+...
+001 (492738.000.000) 04/17 09:36:10 Job executing on host: <192.168.2.8:52172>
+...
+Job start: host=twqcd7, JOB_ID=492738, GPU_ID=0, wdir=/work/cuda_lecture/vecAdd_NGPU
+005 (492738.000.000) 04/17 09:36:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492739.000.000) 04/17 09:36:33 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492739.000.000) 04/17 09:36:36 Job was released.
+	via condor_release (by user condor)
+...
+001 (492739.000.000) 04/17 09:36:55 Job executing on host: <192.168.2.59:53061>
+...
+Job start: host=twqcd58, JOB_ID=492739, GPU_ID=0 1, wdir=/work/cuda_lecture/vecAdd_NGPU
+005 (492739.000.000) 04/17 09:36:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492937.000.000) 04/21 22:25:02 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492937.000.000) 04/21 22:25:05 Job was released.
+	via condor_release (by user condor)
+...
+001 (492937.000.000) 04/21 22:25:24 Job executing on host: <192.168.2.8:52172>
+...
+Job start: host=twqcd7, JOB_ID=492937, GPU_ID=0 1, wdir=/work/d06222003/example/vecAdd_NGPU
+005 (492937.000.000) 04/21 22:25:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (492938.000.000) 04/21 22:28:37 Job submitted from host: <192.168.2.254:39732>
+...
+013 (492938.000.000) 04/21 22:28:40 Job was released.
+	via condor_release (by user condor)
+...
+001 (492938.000.000) 04/21 22:28:45 Job executing on host: <192.168.2.8:52172>
+...
+Job start: host=twqcd7, JOB_ID=492938, GPU_ID=0 1, wdir=/work/d06222003/example/vecAdd_NGPU
+005 (492938.000.000) 04/21 22:28:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...

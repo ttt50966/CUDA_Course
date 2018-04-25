@@ -1,0 +1,4 @@
+/opt/bin/runjob: line 101:  9775 Done                    exec sed "s/GPU_ID/$GPU_ID/" $inp
+      9776 Segmentation fault      | $exe >> $out
+/opt/bin/runjob: line 101:  9635 Done                    exec sed "s/GPU_ID/$GPU_ID/" $inp
+      9636 Segmentation fault      | $exe >> $out
